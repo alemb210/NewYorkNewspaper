@@ -11,15 +11,22 @@ body
 }
 div
 {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
+
 
 .cover {
   width: 350px;
   height: 500px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  /* finish your styling of the cover div here! */
+  font-family: 'Source Code Pro', monospace;
+    /* finish your styling of the cover div here! */
+}
+
+#cover_image
+{
+  margin-top: 20%;
+  width: 75%;
 }
 
 #title {
@@ -31,6 +38,7 @@ div
   color:aqua; 
   opacity: 50%; 
   padding-left: 30%;
+  margin-top: -8%;
 }
 
 #cover_image {
